@@ -8,19 +8,14 @@ body{
 }
 
 .images-div{	
-	/*margin-right: 5%;*/
-    /*margin-left: 5%;*/
-    /*margin-bottom: 30px;*/
     margin: 30px auto;
 }
 
 .home-product-image{
-	/*width: calc(25% - 50px);*/
-    width: 280px;
     height: 375px;
     background-color: #ffffff;
     color: #000000;
-    margin: 25px 25px 25px 25px;
+    margin: 25px;
     float: left !important;
     border: none;
     align-content: center;
