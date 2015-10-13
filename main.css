@@ -10,9 +10,29 @@ body{
 .images-div{	
     margin: 30px auto;
 }
-
+@media(min-width:330px) and (max-width: 660px){
+    .images-div{
+        width: 330px;
+    }
+}
+@media(min-width: 660px) and (max-width: 990px){
+    .images-div{
+        width: 660px;
+    }
+}
+@media(min-width: 990px) and (max-width: 1320px){
+    .images-div{
+        width: 990px;
+    }
+}
+@media(min-width: 1320px){
+    .images-div{
+        width: 1320px;
+    }
+}
 .home-product-image{
     height: 375px;
+    width: 280px;
     background-color: #ffffff;
     color: #000000;
     margin: 25px;
